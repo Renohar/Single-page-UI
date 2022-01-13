@@ -1,0 +1,77 @@
+.header{
+    margin: 0;
+    height: 500px;
+    background-image:
+    linear-gradient(to bottom, rgba(37, 37, 37, 0.52), rgba(78, 76, 78, 0.73)),url('./images/pexels-bich-tran-669996.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.header__left{
+    padding-top: 30px;
+    padding-left: 50px;
+
+}
+
+.header__left__dot{
+    height: 30px;
+    width: 30px;
+    background-color: #1380ec;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.header__left__word{
+    vertical-align: super;
+    display: inline;
+    color:#1380ec;
+}
+
+.header__right__btn{
+    display: inline;
+    vertical-align: super;
+    height: 30px;
+    width: 100px;
+    background-color:#1380ec;
+    color: white;
+    border-radius: 3px;
+    float: right;
+    border:none;
+    font-size: 12px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.header__middle{
+    margin: 125px 450px 20px 450px;
+}
+
+.header__middle__text{
+    text-align: center;
+    color: white;
+}
+
+.header__middle__para{
+    color: white;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.header__bottom__btn{
+    display: flex;
+    vertical-align: super;
+    height: 70px;
+    width: 400px;
+    background-color:#1380ec;
+    color: white;
+    border-radius: 3px;
+    border:none;
+    font-size: 15px;
+    justify-content: center;
+    padding-top: 25px;
+    cursor: pointer;
+    margin-right: 600px;
+    margin-left: 570px;
+
+}
