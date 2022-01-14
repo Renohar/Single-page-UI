@@ -1,8 +1,9 @@
+/* header  */
 .header{
     margin: 0;
     height: 500px;
     background-image:
-    linear-gradient(to bottom, rgba(37, 37, 37, 0.52), rgba(78, 76, 78, 0.73)),url('./images/pexels-bich-tran-669996.jpg');
+    linear-gradient(to bottom, rgba(7, 7, 7, 0.52), rgba(53, 52, 53, 0.73)),url('./images/pexels-bich-tran-669996.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -26,6 +27,7 @@
     vertical-align: super;
     display: inline;
     color:#1380ec;
+    margin-left: 7px;
 }
 
 .header__right__btn{
@@ -73,5 +75,283 @@
     cursor: pointer;
     margin-right: 600px;
     margin-left: 570px;
+}
+
+/* middle-one */
+
+.middle__one{
+    height: 800px;
+    background: linear-gradient(to bottom, #e7e7e9 0%,#e7e7e9 60%,#e7e7e9 60%,white 40%,white 100%);
+}
+
+.middle__one__text{
+    padding-top: 75px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.middle__one__text > h6{
+    text-align: left;
+    font-size: 13px;
+    padding-bottom: 2px;
+}
+
+.middle__one__text__1{
+    float: left;
+    width: 60%;
+    font-size: 40px;
+    padding-right: 150px;
+}
+
+.middle__one__text__2{
+    float: right;
+    width: 40%;
+    text-align: left;
+    margin-bottom: 100px;
+}
+
+.middle__one__box{
+    height:300px;
+    width:1000px;
+    justify-content: center;
+    /* background-color: wheat; */
+    margin:250px 250px 100px 250px;
+}
+
+.box__round{
+    height: 50px;
+    width: 50px;
+    margin: 25px 0px 20px 5px;
+    background: radial-gradient(#1380ec ,white,#1380ec);
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.middle__one__box__1{
+    background-color: white;
+    height: 300px;
+    width:300px;
+    margin: 0px;
+    display: inline-block;
+    margin-right: 45px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: left;
+    padding: 10px 35px 10px 35px;
 
 }
+
+.middle__one__box__2{
+    background-color: white;
+    height: 300px;
+    width:300px;
+    margin: 0px;
+    display: inline-block;
+    margin-right: 45px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: left;
+    padding: 10px 35px 10px 35px;
+}
+
+.middle__one__box__3{
+    background-color: white;
+    height: 300px;
+    width:300px;
+    margin: 0px;
+    display: inline-block;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: left;
+    padding: 10px 35px 10px 35px;
+}
+
+/* middle-two */
+
+.middle__two{
+    height: 375px;
+    background-image:
+    linear-gradient(to bottom, rgba(7, 7, 7, 0.52), rgba(53, 52, 53, 0.73)),url('./images/pexels-bich-tran-669996.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+/* middle-three */
+
+.middle__three{
+    position: relative;
+    height: 375px;
+    background-color: #e7e7e9 ;
+}
+
+.middle__three__box{
+    position: absolute;
+    height: 225px;
+    width: 1275px;
+    /* background-color: wheat; */
+    margin:80px 0px 0px 110px;
+}
+
+.middle__three__box__1{
+    background-color: white;
+    height: 225px;
+    width:375px;
+    margin: 0px;
+    display: inline-block;
+    margin-right: 60px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.middle__three__box__2{
+    background-color: white;
+    height: 225px;
+    width:375px;
+    margin: 0px;
+    display: inline-block;
+    margin-right: 60px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.middle__three__box__3{
+    background-color: white;
+    height: 225px;
+    width:375px;
+    margin: 0px;
+    display: inline-block;
+    margin-right: 0px;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.middle__three__box__divide1{
+    float: left;
+    height: 100%;
+    width: 50%;
+    margin: 0px 0px 0px 0px;
+    text-align: left;
+    padding: 50px 15px 15px 10px;
+}
+.middle__three__box__divide2{
+    height: 100%;
+    width: 50%;
+    float: right;
+    margin: 0px 0px 0px 0px;
+    position: relative;
+}
+
+.one{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0px 0px 0px 0px;
+    border-bottom-right-radius:4px ;
+    border-top-right-radius: 4px;
+}
+
+/* middle-four */
+
+.middle__four{
+    height: 450px;
+    background-color: white;
+    position: relative;
+}
+
+.middle__four__box{
+    width: 1300px;
+    height: 300px;
+    background-color: white;
+    margin: 80px 30px 90px 90px;
+    margin-top: 90px;
+    position: absolute;
+    display: flex;
+}
+
+.middle__four__box__1{
+    background-color: white;
+    height: 300px;
+    width:350px;
+    margin: 0px 100px 0px 0px;
+    display: inline-block;
+}
+
+.middle__four__dot{
+    height: 30px;
+    width: 30px;
+    background-color: #1380ec;
+    display: inline-flex;
+    border-radius: 50%;
+}
+.middle__four__box__2{
+    background-color: white;
+    height: 300px;
+    width:300px;
+    display: inline-block;
+    margin: 0px 75px 0px 0px;
+
+}
+
+.middle__four__box__3{
+    background-color: white;
+    height: 300px;
+    width:300px;
+    display: inline-block ;
+    margin: 0px 75px 0px 0px;
+}
+
+.middle__four__box__4{
+    background-color: white;
+    height: 300px;
+    width:300px;
+    display: inline-block;
+    margin: 0px 0px 0px 0px;
+}
+
+hr{
+    width: 50%;
+}
+svg{
+    height: 30px;
+    width: 30px;
+    color: #1380ec;
+    margin-right: 15px;
+    cursor: pointer;
+}
+h6{
+    cursor: pointer;
+}
+
+/* footer part */
+
+.footer{
+    height: 150px;
+    background-color: #e7e7e9 ;
+}
+
+.footer__text{
+    margin-top: 50px;
+    margin-left: 70px;
+    font-size: 13px;
+    display: inline-flex;
+}
+.footer__copyright{
+    font-size: 10px;
+    margin-top: 10px;
+    margin-left:70px;
+    display: inline-block;
+}
+
+.footer__final{
+    font-size: 10px;
+    float: right;
+    margin-right: 50px;
+}
+
+
+
